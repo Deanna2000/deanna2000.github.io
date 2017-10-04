@@ -1,7 +1,7 @@
 .article {
-    border: 1px solid black;
+    border: 1px solid #ffdead;
     color: #1F994E;
 }
 #intro {
-    font-size: 1.5em;
+    font-size: 3em;
 }
