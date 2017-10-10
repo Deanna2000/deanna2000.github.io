@@ -5,3 +5,12 @@
 #intro {
     font-size: 3em;
 }
+div#navbar ul {
+    list-style-type: none;
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: salmon;
+    
+}
