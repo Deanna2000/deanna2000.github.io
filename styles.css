@@ -2,15 +2,109 @@
     border: 1px solid #ffdead;
     color: #1F994E;
 }
+
+/* li {
+    background-color: salmon;
+    text-align: center;
+    /* vertical-align: center;
+}  */
+
 #intro {
     font-size: 3em;
 }
-div#navbar ul {
+
+/* div#navbar ul {
     list-style-type: none;
     line-height: 1.8em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    font-weight: 900;
-    background-color: salmon;
-    
+} */
+
+
+/* Styles for navbar */
+
+.brand {
+    display: grid;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.nav-container {
+    list-style: none;
+    display: grid;
+    grid-template-columns:25% 1fr 1fr 1fr 1fr 25%;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.header-global {
+    grid-area: header;
+}
+
+
+.main-global {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 100px minmax(500px, 1fr) 50px; 
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+
+.bioClass {
+    text-align: center;
+    /* grid-area: bio; */
+    padding: 2px;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.contactClass {
+    text-align: center;
+    /* grid-area: contact; */
+    padding: 2px;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.blogClass {
+    text-align: center;
+    /* grid-area: blog; */
+    padding: 1px;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.resumeClass {
+    text-align: center;
+    /* grid-area: resume; */
+    padding: 1px;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.buttonStyle {
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: .85;
+}
+
+.aboutStyle {
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: .85;
 }
