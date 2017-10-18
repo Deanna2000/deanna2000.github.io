@@ -4,14 +4,15 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-            <div id="navbar">
-                    <ul>
-                        <li><a href="mystory.html">Who The Hell Am I?</a></li>
-                        <li><a href="blog.html">What Am I Saying?</a></li>
-                        <li><a href="contact.html">How can you talk to me?</a></li>
-                        <li><a href="resume.html">What have I done?</a></li>
-                    </ul>
-            </div>
+                    <header class="header-global">
+                        <div class="header-global brand">
+                            <h1>Yup, it's a blog</h1>
+                        </div>
+                        <nav>
+                        <ul id="nav" class="header-global nav-container">
+                        </ul>
+                        </nav>
+                    </header> 
         <h1>It's a blog!</h1>
         <article id="intro" class="article">
             I'm sad someone else bought the domain pineapplepancakes. :(
@@ -20,6 +21,8 @@
             Blog text here....
 
         </article>
-        <h1><a href="index.html">Take me back!</a></h1>
+
+        <script src="nav-factory.js"></script>
+        <script src="nav-controller.js"></script>    
     </body>
 </html>
