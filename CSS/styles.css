@@ -1,24 +1,16 @@
-.article {
-    border: 1px solid #ffdead;
-    color: #1F994E;
-}
 
-/* li {
-    background-color: salmon;
-    text-align: center;
-    /* vertical-align: center;
-}  */
 
 #intro {
     font-size: 3em;
 }
 
-/* div#navbar ul {
-    list-style-type: none;
-    line-height: 1.8em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-} */
+.content {
+    background-color: #3DB684
+}
+
+.contentlight {
+    background-color: #80F0C1
+}
 
 
 /* Styles for navbar */
@@ -32,15 +24,16 @@
 .nav-container {
     list-style: none;
     display: grid;
-    grid-template-columns:25% 1fr 1fr 1fr 1fr 25%;
+    grid-template-columns:15% 1fr 1fr 1fr 1fr 25%;
     justify-content: center;
-    grid-gap: 5px;
+    grid-gap: 10px;
 }
 
 .header-global {
     grid-area: header;
+    background-color: #3DB684;
+    opacity: .8;
 }
-
 
 .main-global {
     display: grid;
@@ -55,37 +48,51 @@
 
 .bioClass {
     text-align: center;
-    /* grid-area: bio; */
-    padding: 2px;
-    background-color: gray;
-    border: 1px solid gray;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #98C7A0;
 }
 
 .contactClass {
     text-align: center;
-    /* grid-area: contact; */
-    padding: 2px;
-    background-color: gray;
-    border: 1px solid gray;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #98C7A0;
 }
 
 .blogClass {
     text-align: center;
-    /* grid-area: blog; */
-    padding: 1px;
-    background-color: gray;
-    border: 1px solid gray;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #98C7A0;
 }
 
 .resumeClass {
     text-align: center;
-    /* grid-area: resume; */
-    padding: 1px;
-    background-color: gray;
-    border: 1px solid gray;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #98C7A0;
 }
 
-.buttonStyle {
+.indexClass {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #98C7A0;
+}
+
+
+/* .buttonStyle {
     background-color: gray;
     border: 2px solid black;
     color: white;
@@ -95,9 +102,9 @@
     display: inline-block;
     font-size: 16px;
     opacity: .85;
-}
+} */
 
-.aboutStyle {
+/* .aboutStyle {
     background-color: gray;
     border: 2px solid black;
     color: white;
@@ -107,4 +114,4 @@
     display: inline-block;
     font-size: 16px;
     opacity: .85;
-}
+} */
