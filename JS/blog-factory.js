@@ -1,8 +1,8 @@
-const BlogDatabase = [
+const blogDatabase = [
 {
     "title": "Getting started at Software School", 
     "date": "Week 1 - October 6",
-    "content": "My mom told me when I was 6 years old that I should be a computer programmer. At that time she was working at our local university part time as a key punch operator and she worked there throughout my childhood and high school years. For some reason I kept choosing to do things that were not quite technology yet I was usually the person in the office who became the tech expert at whatever we were using. My career did eventually turn to technology fully when I became a project manager. I began working full time with clients who needed products and developers who were making them. I had so much fun watching these ideas come to life and I have been encouraging other friends to consider learning development for a career. After a few years of debating about it, I decided to go beyond my small attempts to learn to code and do it full time as part of a bootcamp. I'm so thrilled to be here and plan to see it through no matter how tough it gets. 
+    "content": "My mom told me when I was 6 years old that I should be a computer programmer. At that time she was working at our local university part time as a key punch operator and she worked there throughout my childhood and high school years. For some reason I kept choosing to do things that were not quite technology yet I was usually the person in the office who became the tech expert at whatever we were using. My career did eventually turn to technology fully when I became a project manager. I began working full time with clients who needed products and developers who were making them. I had so much fun watching these ideas come to life and I have been encouraging other friends to consider learning development for a career. After a few years of debating about it, I decided to go beyond my small attempts to learn to code and do it full time as part of a bootcamp. I'm so thrilled to be here and plan to see it through no matter how tough it gets." 
 },
 {
     "title": "Second week as an apprentice developer",

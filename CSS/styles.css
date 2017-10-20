@@ -19,7 +19,6 @@
     display: grid;
     font-size: 2em;
     justify-content: center;
-    text-decoration-color: purple;
 }
 
 .nav-container {
@@ -53,6 +52,8 @@
     border-radius: 10px;
     padding:10px 15px 10px 15px;
     background-color: #98C7A0;
+    text-decoration: none;
+    color: #042C04;
 }
 
 .contactClass {
@@ -62,6 +63,8 @@
     border-radius: 10px;
     padding:10px 15px 10px 15px;
     background-color: #98C7A0;
+    text-decoration: none;
+    color: #042C04;
 }
 
 .blogClass {
@@ -71,6 +74,8 @@
     border-radius: 10px;
     padding:10px 15px 10px 15px;
     background-color: #98C7A0;
+    text-decoration: none;
+    color: #042C04;
 }
 
 .resumeClass {
@@ -80,6 +85,8 @@
     border-radius: 10px;
     padding:10px 15px 10px 15px;
     background-color: #98C7A0;
+    text-decoration: none !important;
+    color: #042C04;
 }
 
 .indexClass {
@@ -89,29 +96,18 @@
     border-radius: 10px;
     padding:10px 15px 10px 15px;
     background-color: #98C7A0;
+    text-decoration: none;
+    color: #042C04;
 }
 
+.blog-container {
+    list-style: none;
+    justify-content: left;
+    background-color: #3DB684;
+    color: #054C68;
+    font-size: 1.2.em;
+}
 
-/* .buttonStyle {
-    background-color: gray;
-    border: 2px solid black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    opacity: .85;
-} */
-
-/* .aboutStyle {
-    background-color: gray;
-    border: 2px solid black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    opacity: .85;
-} */
+.biotext {
+    font-size: 1.5em;
+}
