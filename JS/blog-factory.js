@@ -1,4 +1,4 @@
-const BlogDatabase = [
+const blogDatabase = [
 {
     "title": "Getting started at Software School", 
     "date": "Week 1 - October 6",
