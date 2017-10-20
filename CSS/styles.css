@@ -19,7 +19,6 @@
     display: grid;
     font-size: 2em;
     justify-content: center;
-    text-decoration-color: purple;
 }
 
 .nav-container {
@@ -115,3 +114,12 @@
     font-size: 16px;
     opacity: .85;
 } */
+
+.blog-container {
+    list-style: none;
+    justify-content: left;
+}
+
+.biotext {
+    font-size: 1.5em;
+}
