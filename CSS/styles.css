@@ -19,6 +19,7 @@
     display: grid;
     font-size: 2em;
     justify-content: center;
+    text-decoration-color: purple;
 }
 
 .nav-container {
@@ -44,7 +45,6 @@
     "main"
     "footer";
 }
-
 
 .bioClass {
     text-align: center;
