@@ -21,7 +21,7 @@ const navList = [
 },
 {
     "title": "Resume",
-    "link": "/html/resume.html",
+    "link": "/HTML/resume.html",
     "css": "resumeClass"
 }
 ]
