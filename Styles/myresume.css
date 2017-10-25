@@ -1,0 +1,11 @@
+.resume-container {
+    background-color: lightblue;
+    list-style-type: none;
+    padding: 0px 20px;
+
+}
+
+.resumeStyles {
+    font-size: 1.2em;
+    color: green
+}
