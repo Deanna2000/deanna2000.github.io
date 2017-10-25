@@ -7,7 +7,7 @@ for (let i = 0; i < resumeDatabase.length; i++) {
     `
     <section class="resumeStyles">
         <h2>${currentResEntry.jobtitle}</h2>
-        <p> ${currentResEntry.company}</p>
+        <p>${currentResEntry.company}</p>
         <p>${currentResEntry.dates}</p>
     </section>
     `
