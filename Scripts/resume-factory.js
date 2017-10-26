@@ -1,3 +1,4 @@
+//create database for resume data
 const resumeDatabase = [
     {
         "jobtitle": "CEO and Founder", 
@@ -29,4 +30,6 @@ const resumeDatabase = [
     }
     ]
 
-    
+    // Add data to local storage
+    const resumeDatabaseString = JSON.stringify(resumeDatabase)
+    localStorage.setItem("resumeDatabase", resumeDatabaseString)
