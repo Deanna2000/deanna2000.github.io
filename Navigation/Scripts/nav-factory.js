@@ -6,27 +6,27 @@ const navList = [
 },
 {
     "title": "Bio", 
-    "link": "/HTML/bio.html",
+    "link": "/Bio/index.html",
     "css": "bioClass"
 },
 {
     "title": "Contact",
-    "link": "/HTML/contact.html",
+    "link": "/Contact/index.html",
     "css": "contactClass"
 },
 {
     "title": "Blog",
-    "link": "/HTML/blog.html",
+    "link": "/Blog/index.html",
     "css": "blogClass"
 },
 {
     "title": "Resume",
-    "link": "/HTML/resume.html",
+    "link": "/Resume/index.html",
     "css": "resumeClass"
 },
 {
     "title": "Projects",
-    "link": "/HTML/projects.html",
+    "link": "/Projects/index.html",
     "css": "projectsClass"
 }
 ]

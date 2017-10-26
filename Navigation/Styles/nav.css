@@ -1,141 +1,35 @@
-body {
-    
-    font-family: 'Didact Gothic', sans-serif;
-    color: #256351;
-    opacity: .85;
-}
-
-h1 {
-    padding: 20px;
-}
-
-h2 {
-    color: #d1a000;
-    margin-top: .3em;
-    margin-bottom: .3em;
-}
-
-h3 {
-    color: #256351;
-    font-size: 1.3em;
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
-
-p {
-    font-size: 1em;
-    margin-top: .4em;
-    margin-bottom: .4em;
-}
-
-iframe body {
-
-}
-
-#socials {
-    display: flex;
-    justify-content: space-around;
-    background-color: #ABC5B9;
-    width: 100%;
-    height: 460px;
-}
-
-#linkedInBadge {
-    margin-left: 20px;
-    /* margin-right: 20px; */
-    height: 800px;
-    width: 400px;
-}
-
-
-#twitterFeed {
-    height: 800px;
-    width: 400px;
-    margin-left: 20px;
-    position: center;
-}
-
-#instaFeed {
-  margin-left: 40px;
-  opacity: .65;
-}
-
-.header img {
-    float: left;
-    width: 160px;
-    height: 160px;
-}
-  
-.header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-}
-
-
-.content {
-    background-color: #3DB684;
-    opacity: .7;
-}
-
 
 /*Removes the underline from database content*/
 
-a:link {
+ul a:link {
     color: #d1a000;
     text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+ul a:visited {
     color: #e2ea00;
     text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+ul a:hover {
     color: #09866B;
     text-decoration: none;
 }
 
 /* selected link */
-a:active {
+ul a:active {
     color: #05835D;
     text-decoration: none;
 }
 
-
-/* Styles for navbar */
-.brand {
-    font-size: 2em;
-}
-
-
-
+/* Styles the container of the nav buttons */
 .nav-container {
     list-style: none;
     display: grid;
     grid-template-columns:16% 1fr 1fr 1fr 1fr 15%;
     grid-gap: 10px;
-}
-
-.header-global {
-    grid-area: header;
-    background-color: #ABC5B9;
-    opacity: .8;
-    line-height: 1.4;
-    font-family: 'Architects Daughter', cursive;
-    color: #256351;
-}
-
-.main-global {
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: 100px minmax(500px, 1fr) 50px; 
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
 }
 
 /*Styling for the nav buttons and text*/
@@ -150,7 +44,6 @@ a:active {
     text-decoration: none;
     color: #042C04;
 }
-
 
 .bioClass {
     text-align: center;
@@ -175,6 +68,7 @@ a:active {
     text-decoration: none;
     color: #042C04;
 }
+
 .contactClass {
     text-align: center;
     font-size: 20px;
@@ -198,6 +92,7 @@ a:active {
     text-decoration: none;
     color: #042C04;
 }
+
 .blogClass {
     text-align: center;
     font-size: 20px;
@@ -280,29 +175,6 @@ a:active {
     background-color: #80A886;
     text-decoration: none;
     color: #042C04;
-}
-
-.blog-container {
-    list-style: none;
-    grid-gap: 40px;
-    display: grid;
-    opacity: .85;
-    padding: 40px;
-}
-
-.bodytext {
-    font-size: 1.3em;
-    font-weight: 1.2em;
-    margin: 20px;
-}
-
-
-.blogging {
-    font-size: 1.5em; 
-    display: grid; 
-    border-radius: 20px;  
-    padding: 40px;
-    border: 3px solid #d1a000;
 }
 
 .navbutton {
