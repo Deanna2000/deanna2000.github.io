@@ -112,7 +112,7 @@ a:active {
 .nav-container {
     list-style: none;
     display: grid;
-    grid-template-columns:17% 1fr 1fr 1fr 1fr 3%;
+    grid-template-columns:16% 1fr 1fr 1fr 1fr 15%;
     grid-gap: 10px;
 }
 
