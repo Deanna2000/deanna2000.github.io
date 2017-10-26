@@ -2,12 +2,13 @@
     background-color:  #ABC5B9;;
     list-style-type: none;
     padding: 20px;
-    width: 300px;
-    margin-left: 40px;
-
-
+    width: 400px;
 }
 
 .resumeStyles {
     color: #707230;
 }
+
+/* .resumePDF {
+    position: right;
+} */

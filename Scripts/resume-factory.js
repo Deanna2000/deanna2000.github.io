@@ -29,4 +29,5 @@ const resumeDatabase = [
     }
     ]
 
-    
+    const resumeDatabaseString = JSON.stringify(resumeDatabase)
+    localStorage.setItem("resumeDatabase", resumeDatabaseString)

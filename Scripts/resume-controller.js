@@ -1,8 +1,10 @@
+const storedResume= JSON.parse(localStorage.getItem("resumeDatabase"))
+
 let resumeInfo = document.getElementById("resume")
 
 //grab resume data from the factory for each key and then display to browser for that object
-for (let i = 0; i < resumeDatabase.length; i++) {
-    let currentResEntry = resumeDatabase[i]
+for (let i = 0; i < storedResume.length; i++) {
+    let currentResEntry = storedResume[i]
     resumeInfo.innerHTML += 
     `
     <section class="resumeStyles">
