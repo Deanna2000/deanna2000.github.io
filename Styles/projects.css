@@ -4,9 +4,10 @@
     position: center;
     padding: 20px;
     width: 400px;
-    margin-left: 40px;
+    margin: 0 auto;
 }
 
-.projectsStyles {
+.projectstyles {
     color: #707230;
+    margin: 0 auto;
 }
