@@ -255,6 +255,30 @@ a:active {
     color: #042C04;
 }
 
+.projectsClass:hover {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border: 2px solid #e2ea00;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color:#d1a000;
+    text-decoration: none;
+    color: #042C04;
+}
+
+.projectsClass {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border: 2px solid #e2ea00;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #80A886;
+    text-decoration: none;
+    color: #042C04;
+}
+
 .blog-container {
     list-style: none;
     grid-gap: 40px;
