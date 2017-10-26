@@ -1,0 +1,9 @@
+contacts-container {
+    background-color:  #ABC5B9;;
+    margin-left: 40px;
+    grid-gap: 40px; 
+}
+
+section#social-media-links img {
+    margin: 60px; 
+}

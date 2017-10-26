@@ -28,6 +28,10 @@ p {
     margin-bottom: .4em;
 }
 
+iframe body {
+
+}
+
 #socials {
     display: flex;
     justify-content: space-around;
@@ -52,9 +56,8 @@ p {
 }
 
 #instaFeed {
-    height: 800px;
-    width: 400px;
-    /* margin-left: 20px; */
+  margin-left: 40px;
+  opacity: .65;
 }
 
 .header img {
