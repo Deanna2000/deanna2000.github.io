@@ -112,7 +112,7 @@ a:active {
 .nav-container {
     list-style: none;
     display: grid;
-    grid-template-columns:17% 1fr 1fr 1fr 1fr 3%;
+    grid-template-columns:16% 1fr 1fr 1fr 1fr 15%;
     grid-gap: 10px;
 }
 
@@ -244,6 +244,30 @@ a:active {
 }
 
 .indexClass {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border: 2px solid #e2ea00;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color: #80A886;
+    text-decoration: none;
+    color: #042C04;
+}
+
+.projectsClass:hover {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #256351;
+    border: 2px solid #e2ea00;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    background-color:#d1a000;
+    text-decoration: none;
+    color: #042C04;
+}
+
+.projectsClass {
     text-align: center;
     font-size: 20px;
     box-shadow: 5px 5px 5px #256351;
