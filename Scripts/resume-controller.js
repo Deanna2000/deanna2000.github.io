@@ -1,8 +1,9 @@
+//Parse data to get out of local storage
 const storedResume= JSON.parse(localStorage.getItem("resumeDatabase"))
 
 let resumeInfo = document.getElementById("resume")
 
-//grab resume data from the factory for each key and then display to browser for that object
+//Get resume data from the factory for each object and then display to browser
 for (let i = 0; i < storedResume.length; i++) {
     let currentResEntry = storedResume[i]
     resumeInfo.innerHTML += 
@@ -13,17 +14,15 @@ for (let i = 0; i < storedResume.length; i++) {
         <p>${currentResEntry.dates}</p>
     </section>
     `
-    //grab details for accomplisments and then display to browser for that object
+    //Get details for accomplisments and then display to browser
     for (let j=0;j<currentResEntry.accomplishments.length;j++) {
         let currentResAccomp = currentResEntry.accomplishments[j]
-        //create string template for each li (insert currentResAccomp between each one)
-        //add innerHTML for li to ul
+        //Create string template for each li (insert currentResAccomp between each one)
+        //Add innerHTML for li to ul
         console.log(currentResAccomp)
         resumeInfo.innerHTML += 
         `
         <li>${currentResAccomp}<li>
-
         `
-        console.log(currentResEntry.jobtitle) 
-}
+        console.log(currentResEntry.jobtitle) }
 }
