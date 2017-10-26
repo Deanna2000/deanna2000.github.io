@@ -1,0 +1,108 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #256351;
+    opacity: .85;
+}
+
+h1 {
+    padding: 20px;
+}
+
+h2 {
+    color: #d1a000;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+h3 {
+    color: #256351;
+    font-size: 1.3em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+p {
+    font-size: 1em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+}
+
+
+/* Styles for social feed elements */
+/* #socials {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ABC5B9;
+    width: 100%;
+    height: 460px;
+} */
+
+/* #linkedInBadge {
+    margin-left: 20px;
+    height: 800px;
+    width: 400px;
+} */
+
+/* 
+#twitterFeed {
+    height: 800px;
+    width: 400px;
+    margin-left: 20px;
+    position: center;
+} */
+
+iframe#instaFeed {
+    opacity: .45;
+}
+
+.header img {
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+  
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+
+.content {
+    background-color: #3DB684;
+    opacity: .7;
+}
+
+
+
+/* Styles for header */
+.brand {
+    font-size: 2em;
+}
+
+.header-global {
+    grid-area: header;
+    background-color: #ABC5B9;
+    opacity: .8;
+    line-height: 1.4;
+    font-family: 'Architects Daughter', cursive;
+    color: #256351;
+}
+
+.main-global {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 100px minmax(500px, 1fr) 50px; 
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+/* Style for body content */
+.bodytext {
+    font-size: 1.3em;
+    font-weight: 1.2em;
+    margin: 20px;
+}
+

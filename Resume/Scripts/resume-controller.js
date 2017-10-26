@@ -8,7 +8,7 @@ for (let i = 0; i < storedResume.length; i++) {
     let currentResEntry = storedResume[i]
     resumeInfo.innerHTML += 
     `
-    <section class="resumeStyles">
+    <section >
         <h2>${currentResEntry.jobtitle}</h2>
         <p>${currentResEntry.company}</p>
         <p>${currentResEntry.dates}</p>
@@ -22,7 +22,7 @@ for (let i = 0; i < storedResume.length; i++) {
         console.log(currentResAccomp)
         resumeInfo.innerHTML += 
         `
-        <li>${currentResAccomp}<li>
+        <li class="resumeStyles">${currentResAccomp}<li>
         `
         console.log(currentResEntry.jobtitle) }
 }

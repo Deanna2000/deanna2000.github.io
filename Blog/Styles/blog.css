@@ -1,0 +1,15 @@
+.blog-container {
+    list-style: none;
+    grid-gap: 40px;
+    display: grid;
+    opacity: .85;
+    padding: 40px;
+}
+
+.blogging {
+    font-size: 1.5em; 
+    display: grid; 
+    border-radius: 20px;  
+    padding: 40px;
+    border: 3px solid #d1a000;
+}

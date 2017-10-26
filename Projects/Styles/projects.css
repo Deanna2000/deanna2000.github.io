@@ -3,11 +3,13 @@
     list-style-type: none;
     position: center;
     padding: 20px;
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
 }
 
 .projectstyles {
     color: #707230;
     margin: 0 auto;
+    border-bottom-width: 300px;
+    border-bottom-color: white;
 }

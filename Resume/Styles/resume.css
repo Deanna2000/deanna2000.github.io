@@ -1,0 +1,16 @@
+.resume-container {
+    background-color:  #ABC5B9;;
+    list-style-type: none;
+    padding: 40px;
+    width: 600px;
+}
+
+#resume {
+    color: #707230;
+    margin: 0 auto;
+}
+
+li.resumeStyles {
+    color: #256351;
+}
+
