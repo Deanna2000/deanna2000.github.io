@@ -1,0 +1,12 @@
+.projects-container {
+    background-color:  #ABC5B9;;
+    list-style-type: none;
+    position: center;
+    padding: 20px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.projectsStyles {
+    color: #707230;
+}

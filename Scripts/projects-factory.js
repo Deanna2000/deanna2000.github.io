@@ -1,35 +1,27 @@
-//create database for resume data
-const resumeDatabase = [
+//create database for project data
+const projectsDatabase = [
     {
-        "jobtitle": "CEO and Founder", 
-        "company": "Doo Drop",
-        "Location": "Nashville - Remote",
-        "dates": "June 2016 - Present",
-       accomplishments: ["Created vision for mobile app called Doo Drop", "Worked with team of designers to develop a website for Doo Drop", "Paired with designer to create mockups for mobile app"]
+        "name": "Exercise 1 - Overly Excited", 
+        "link": "https://github.com/Deanna2000/Exercises-for-NSS/tree/master/overly-excited",
+        "description": "Practice with arrays and displaying the data in the console.",
     },
     {
-        "jobtitle": "Senior Engagement Manager",
-        "company": "Acklen Avenue",
-        "Location": "Nashville - Remote",
-        "dates": "November 2014 - September 2017",
-        accomplishments: ["Implemented new process for management of client deliveries", "worked with leadership to add Design to our development process", "Initiated and managed monthly company wide meetings"]
+        "name": "Exercise 2 - CSS Selectors", 
+        "link": "https://github.com/Deanna2000/Exercises-for-NSS/tree/master/css-selectors",
+        "description": "Learning basic CSS concepts by applying them to some content in the browser.",
     },
     {
-        "jobtitle": "Director of Client Engagement", 
-        "company": "appendTo",
-        "Location": "Nashville - Remote",
-        "dates": "May 2013 - November 2014",
-        accomplishments: ["Implemented core scrum practices across all projects","Provided coaching and mentoring to Engagement Management team","Maintained client satisfaction by resolving concerns immediately"]
+        "name": "Exercise 3 - Boy Bands", 
+        "link": "https://github.com/Deanna2000/Exercises-for-NSS/blob/master/boy-bands/boybands.js",
+        "description": "More work with arrays and getting them to populate in the browser using innerHTML.",
     },
     {
-        "jobtitle": "Consultant", 
-        "company": "Deanna Vickers Consulting",
-        "Location": "Nashville - Remote",
-        "dates": "July 2009 - April 2013",
-        "accomplishments": ["Led a large project to help manage home energy assessment information for the state of TN","Managed several large telecom insuarance projects ","Created plan for a clinical research study application for a orthopaedic surgery practice"]
+        "name": "Exercise 4 - Cash to Coins", 
+        "link": "https://github.com/Deanna2000/Exercises-for-NSS/tree/master/cash-to-coins",
+        "description": "Working with for loops and calculations to calculate the number of coins in a total amount of cash.",
     }
     ]
 
     // Add data to local storage
-    const resumeDatabaseString = JSON.stringify(resumeDatabase)
-    localStorage.setItem("resumeDatabase", resumeDatabaseString)
+    const projectsDatabaseString = JSON.stringify(projectsDatabase)
+    localStorage.setItem("projectsDatabase", projectsDatabaseString)
