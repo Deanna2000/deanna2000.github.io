@@ -51,7 +51,7 @@ const blogDatabase = [
 },
 {
     "title": "Testing Page 2", 
-    "date": "Week 5 - November 3",
+    "date": "Week 11 - November 3",
     "content": "Wow, I finished Colored Reindeer and I'm on my way to start adding pagination and searching to my blog. One thing that has occurred to me is not just a new way of thinking but really understanding the steps that are involved in writing code as it relates to the steps of delivering features. I knew they were not necessarily directly related but it's taking on a whole new meaning now. Knowing what to do is very different than knowing how to do it. And therein lies the 'language' aspect of what we are learning. For example, when I say something in English and want to translate it to French, I need to remember that the words are not the only thing that changes, there is also a new order to the sentence and in some cases, it's expressed in a way that does not translate directly which requires even more creativity to develop an approximation of what was intended."
 }
 

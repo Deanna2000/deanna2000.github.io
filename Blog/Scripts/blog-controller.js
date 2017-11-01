@@ -1,5 +1,7 @@
-let blogInfo = document.getElementById("blogs")
+//set variable to call the write statement
+let blogInfo = document.getElementById("blog-posts")
 
+//iterate over the blog database to display each article on the page
 for (let i = 0; i < blogDatabase.length; i++) {
     let currentBlog = blogDatabase[i]
    blogInfo.innerHTML += 
@@ -10,5 +12,4 @@ for (let i = 0; i < blogDatabase.length; i++) {
         <p>${currentBlog.content}</p>
     </section>
     `
-    console.log(currentBlog.title) 
 }
