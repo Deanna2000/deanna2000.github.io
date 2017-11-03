@@ -1,0 +1,35 @@
+{
+  "name": "deanna2000.github.io",
+  "version": "1.0.0",
+  "description": "Deanna's portfolio site for cohort 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deanna2000/deanna2000.github.io.git"
+  },
+  "keywords": [
+    "nss",
+    "deanna",
+    "music",
+    "products",
+    "doodrop"
+  ],
+  "author": "Deanna Vickers <deanna2000@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deanna2000/deanna2000.github.io/issues"
+  },
+  "homepage": "https://github.com/Deanna2000/deanna2000.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "eslint-grunt": "^1.0.0",
+    "grunt-eslint": "^20.1.0"
+  }
+}
