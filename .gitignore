@@ -8,3 +8,5 @@ obj
 *.db
 *.sqlite3
 .vscode
+build
+package-lock.json

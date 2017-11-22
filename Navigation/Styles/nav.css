@@ -4,177 +4,58 @@
 ul a:link {
     color: #d1a000;
     text-decoration: none;
+    line-height: 80px;
 }
 
 /* visited link */
 ul a:visited {
     color: #e2ea00;
     text-decoration: none;
+    line-height: 80px;
 }
 
 /* mouse over link */
 ul a:hover {
     color: #09866B;
     text-decoration: none;
+    line-height: 80px;
 }
 
 /* selected link */
 ul a:active {
     color: #05835D;
     text-decoration: none;
+    line-height: 80px;
 }
 
 /* Styles the container of the nav buttons */
 .nav-container {
     list-style: none;
     display: grid;
-    grid-template-columns:16% 1fr 1fr 1fr 1fr 15%;
-    grid-gap: 10px;
+    grid-template-columns:22% 1fr 1fr 22%;
+    grid-gap: 40px;
+    padding: 60px;
 }
 
-/*Styling for the nav buttons and text*/
-.bioClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
+/* Styling for the nav buttons and text*/
+
+.volunteerClass:hover {
+    opacity: .5;
 }
 
-.bioClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#80A886;
-    text-decoration: none;
-    color: #042C04;
-}
-
-.contactClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
-}
-
-.contactClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color: #80A886;
-    text-decoration: none;
-    color: #042C04;
-}
 
 .blogClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
+    opacity: .5;
 }
 
-.blogClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color: #80A886;
-    text-decoration: none;
-    color: #042C04;
-}
 
 .resumeClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
+    opacity: .5;
 }
 
-.resumeClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color: #80A886;
-    text-decoration: none !important;
-    color: #042C04;
-}
-
-.indexClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
-}
-
-.indexClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color: #80A886;
-    text-decoration: none;
-    color: #042C04;
-}
 
 .projectsClass:hover {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color:#d1a000;
-    text-decoration: none;
-    color: #042C04;
-}
-
-.projectsClass {
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #256351;
-    border: 2px solid #e2ea00;
-    border-radius: 10px;
-    padding:10px 15px 10px 15px;
-    background-color: #80A886;
-    text-decoration: none;
-    color: #042C04;
+    opacity: .5;
 }
 
 .navbutton {

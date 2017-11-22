@@ -1,6 +1,7 @@
 //Parse data to get out of local storage
 const storedProjects = JSON.parse(localStorage.getItem("projectsDatabase"))
 
+console.log("STORED", storedProjects)
 let projectsInfo = document.getElementById("projects")
 
 //Get project data from the factory for each object and then display to browser

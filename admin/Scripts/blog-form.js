@@ -23,6 +23,17 @@ console.log("You can build this form!!!")
 let blogTitle = document.getElementById("blog-title")
 let button = document.getElementById("postIt")
 
+
+
+
+currentArticle.tags = currentArticle.tags || []
+
+// Put values in the article form
+document.querySelector("input[name='articleForm__title']").value = currentArticle.title
+document.querySelector("input[name='articleForm__tags']").value = currentArticle.tags.join(",")
+document.querySelector("textarea[name='articleForm__body']").value = currentArticle.body
+
+
 //add event listener for button click to submit form
 button.addEventListener("click", function(event){
     let userInput = document.getElementById("userInput").value

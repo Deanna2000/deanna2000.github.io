@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Pineapple Pancakes Blog</title>
-        <link rel="stylesheet" type="text/css" href="/globalsstyles/styles.css">
+        <link rel="stylesheet" type="text/css" href="/globalstyles/styles.css">
         <link rel="stylesheet" type="text/css" href="/globalstyles/normalize.css">
         <link rel="stylesheet" type="text/css" href="/blog/styles/blog.css">
         <link rel="stylesheet" type="text/css" href="/navigation/styles/nav.css">
@@ -17,10 +17,26 @@
         </header> 
         <article>
             <hi> Add A New Blog Post!! Woo Hoo!</hi>
-            <input id="userInput" type="text">Blog Title<br>
        
-        </article>
+            <section id="articleForm">
+
+            <label>Title</label>
+            <input type="text" name="articleForm__title">
             
+            <label>Contents</label>
+            <textarea name="articleForm__body"></textarea>
+            
+            <label>Tags (comma separated)</label>
+            <input type="text" name="articleForm__tags">
+        
+            <div id="articleForm__save">
+                <button id="articleForm__saveButton">Save Article</button>
+            </div>    
+
+        </article>
+
+
+
         <script src="/blog/scripts/blog-form.js"></script>
         <script src="/navigation/scripts/nav-factory.js"></script>
         <script src="/navigation/scripts/nav-controller.js"></script>
